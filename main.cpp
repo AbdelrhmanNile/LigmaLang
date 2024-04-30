@@ -29,7 +29,7 @@ int main(int argc, char** argv)
     // read source file
     std::string source = "";
     std::string line;
-    std::ifstream file("/home/pirate/projects/ccp_lang_cmake/source.test");
+    std::ifstream file("/home/pirate/projects/ccp_lang_cmake/source.ligma");
     if (file.is_open()){
         while (getline(file, line)){
             source += line + "\n";
